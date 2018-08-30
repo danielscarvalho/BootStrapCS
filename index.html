@@ -17,14 +17,15 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <style>
+        
         body {
             padding: 10px;
         }
 
         .imgback {
-            background-image: url ("img/web.jpg");
+            background-image: url("img/web.jpg");
         }
-
+        
         .navbar {
             margin-bottom: 0;
             border-radius: 0;
@@ -37,10 +38,8 @@
 
     <!-- NAV BAR -->
     <nav class="navbar navbar-expand-lg navbar-light navbar-dark bg-dark">
+       
         <a class="navbar-brand" href="#"><i class="fab fa-galactic-republic" style="color:blue;"></i> FTT EC</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-		<span class="navbar-toggler-icon"></span>
-	  </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
@@ -52,8 +51,8 @@
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-			  WEB Tech
-			</a>
+			           WEB Tech
+			        </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="#"><i class="fab fa-html5" style="color:red;"></i> HTML5</a>
                         <a class="dropdown-item" href="#"><i class="fab fa-css3" style="color:red;"></i> CSS3</a>
@@ -77,10 +76,10 @@
     </nav>
 
     <!-- JUMBOTRON -->
-    <div class="jumbotron text-center">
-        <div class="container imgback">
+    <div class="jumbotron text-center imgback">
+        <div class="container">
             <h1>Welcome To My Website</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+            <p>Veja os comentários no código fonte da página!</p>
             <a href="#" class="btn btn-primary">Read More</a>
         </div>
     </div>
@@ -111,7 +110,7 @@
         <hr>
 
         <!-- BLOCKQUOTE -->
-        <blockquote class="blockquote-reverse">
+        <blockquote class="blockquote">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
             <footer>Quote by <cite title="John Doe">John Doe</cite></footer>
         </blockquote>
@@ -239,10 +238,10 @@
             <div class="form-group">
                 <label>Gender</label>
                 <select class="form-control">
-            <option value="male">Male</option>
-            <option value="female">Female</option>
-            <option value="other">Other</option>
-          </select>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
             </div>
 
             <div class="form-group">
@@ -252,9 +251,9 @@
             </div>
 
             <div class="checkbox">
-                <label>
-            <input type="checkbox"> Check me out
-          </label>
+              <label>
+                <input type="checkbox"> Check me out
+              </label>
             </div>
 
             <button type="submit" class="btn btn-default">Submit</button>
@@ -273,10 +272,10 @@
                 <input type="password" class="form-control" placeholder="Password">
             </div>
             <div class="checkbox">
+                <button type="submit" class="btn btn-default">Login</button>
                 <label>
                      <input type="checkbox"> Remember me
                 </label>
-                <button type="submit" class="btn btn-default">Login</button>
             </div>
         </form>
     </div>
@@ -339,6 +338,7 @@
     </div>
 
     <div class="container">
+       
         <!-- PANELS -->
         <div class="panel panel-primary">
             <div class="panel-heading">
@@ -372,7 +372,7 @@
         <!-- PROGRESS BARS -->
         <div class="progress">
             <div class="progress-bar progress-bar-success progress-bar-striped active" style="width:50%;">
-                50%
+                40%
             </div>
         </div>
 
@@ -393,6 +393,7 @@
       </button>
     </div>
 
+    <hr>
     <!-- IMAGES -->
     <div class="container">
         <img class="thumbnail" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150">
@@ -479,6 +480,7 @@
         </div>
     </div>
     </p>
+    
     <!-- Card title in Boxes - with hell DIVs -->
     <p>
     <div class="row">
@@ -517,52 +519,52 @@
 
     <!-- Card title in Boxes - now with HTML5 semantic tags -->
     <p>
-    <div class="row">
+    <main class="row">
         <div class="col-md-4">
-            <div class="card" style="width: 18rem;">
+            <article class="card" style="width: 18rem;">
                 <img class="card-img-top" src="img/firefox-dev.png" alt="Card image cap">
                 <section class="card-body">
                     <h5 class="card-title">Firefox Developer Edition</h5>
                     <p class="card-text">Ferramenta poderosa para devs! Construa e Aperfeiçoe os seus sites com o Firefox DevTools</p>
                     <a href="https://www.mozilla.org/pt-BR/firefox/developer/" class="btn btn-primary" target="stack-overflow-dev-survey">Go to Firefox Dev</a>
                 </section>
-            </div>
+            </article>
         </div>
         <div class="col-md-4">
-            <div class="card" style="width: 18rem;">
+            <article class="card" style="width: 18rem;">
                 <i class="fa fa-robot" style="font-size: 10em; text-align: center"></i>
-                <div class="card-body">
+                <section class="card-body">
                     <h5 class="card-title">Bootstrap 4</h5>
                     <p class="card-text">Bootstrap tem uma série de componentes simples feitos com HTML5, CSS3 e JavaScript que melhoram a produtividade no desenvolvimento</p>
                     <a href="https://getbootstrap.com/docs/4.0/components/alerts/" class="btn btn-primary" target="LinuxYes!">Go to Bootstrap components</a>
-                </div>
-            </div>
+                </section>
+            </article>
         </div>
         <div class="col-md-4">
-            <div class="card" style="width: 18rem;">
+            <article class="card" style="width: 18rem;">
                 <img class="card-img-top" src="img/mdn.png" alt="Card image cap">
-                <div class="card-body">
+                <section class="card-body">
                     <h5 class="card-title">MDN</h5>
                     <p class="card-text">O MDN mantém recursos on-line em portugues de altissima qualidade para aprender HTML5, CSS3 e JavaScript</p>
                     <a href="https://developer.mozilla.org/pt-BR/" class="btn btn-primary" target="dino">Go to Pixels</a>
-                </div>
-            </div>
+                </section>
+            </article>
         </div>
-    </div>
+    </main>
     </p>
 
 
     <p>
-        <div class="card">
-            <div class="card-header">
+        <article class="card">
+            <header class="card-header">
                 Featured
-            </div>
-            <div class="card-body">
+            </header>
+            <section class="card-body">
                 <h5 class="card-title">W3School</h5>
                 <p class="card-text">O W3C mantém um ambiente para aprender HTML5, CSS3 e JavaScript</p>
                 <a href="https://www.w3schools.com/" class="btn btn-primary">Go W3School</a>
-            </div>
-        </div>
+            </section>
+        </article>
     </p>
 
 
@@ -621,11 +623,28 @@
             <iframe src="https://open.spotify.com/embed/user/12177028625/playlist/1hUJD2ty6bkIvpvIKAaaat" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
     <h5>Wolfram Demonstration</h5>
             <iframe src="https://www.wolframcloud.com/objects/e7efedf7-5602-4285-83eb-4a1a466007c4" width="600" height="600" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                    
+
+<h2>SVG<h2>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" 
+     width="300px" height="300px"
+     viewBox="0 0 30 30">
+	<title>Title of the whole SVG image</title>
+	<g id="shapes">
+		<title>Title of the "shapes" group</title>
+		<rect x="0" y="0" width="10" height="20" fill="#f00">
+			<title>Title of the rectangle</title><!--XML comment-->
+		</rect>
+		<circle cx="5" cy="5" r="3" fill="#0f0"/>
+		<text x="10" y="10" font-size="10" text-decoration="underline" transform="rotate(45)">Coisa!
+			<title>Title of the text</title>
+		</text>
+	</g>
+</svg>
+
 </div>
-
-
-                    <div style="height:400px"></div>
+<footer class="page-footer font-small text-white bg-dark text-center">
+    Copyringht &copy; 2018 - @danielscarvalho
+</footer>
 
                     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
                     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
